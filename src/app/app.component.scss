@@ -1,0 +1,16 @@
+header {
+    background-image: url("../assets/af_pattern_bg.png");
+    height: 50px;
+    color:#FFF;
+    text-align: center;
+    padding-top:10px;
+    width: 100%;
+}
+
+
+@media (max-width: 420px) {
+    header {
+        width: calc(100vw);
+        margin: 5px auto;
+    }
+}
